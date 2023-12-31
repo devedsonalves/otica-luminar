@@ -52,7 +52,6 @@ class GlassesService {
   }
 
   async deleteAll(request: Request, response: Response) {
-    Glasses.deleteMany({ type: "Parafusado" })
   }
 }
 
